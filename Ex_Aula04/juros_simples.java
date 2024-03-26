@@ -1,3 +1,4 @@
+package Ex_Aula04;
 import java.util.Scanner;
 
 public class juros_simples {
