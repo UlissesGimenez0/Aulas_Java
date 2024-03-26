@@ -11,11 +11,12 @@ public class area_Quad {
         
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um dos Lados do Quadrado (Base ou Altura)");
-        double firstnumber = scanner.nextInt();
+        double baseOuAltura = scanner.nextInt();
 
-        double resultado = Math.pow(firstnumber, 2) ;
+        double resultado = Math.pow(baseOuAltura, 2) ;
 
         System.out.println( "a Aréa do Quadrado é " + resultado);
+        scanner.close();
     }
 
 }

@@ -19,5 +19,6 @@ public class juros_simples {
         double juros = (juroaplicado / 100) * capitalaplicado * tempoaplicado; 
 
         System.out.println("O valor aplicado retornará o seguinte valor: " + juros);
+        scanner.close();
     }
 }

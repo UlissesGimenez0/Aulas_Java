@@ -11,11 +11,12 @@ public class perimetro_Quad {
         
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um dos Numeros (Base ou Altura)");
-        double firstnumber = scanner.nextInt();
+        double baseOuAltura = scanner.nextInt();
 
-        double resultado = firstnumber  * 4;
+        double resultado = baseOuAltura  * 4;
 
         System.out.println( "O Perimetro do Quadrado é " + resultado);
+        scanner.close();
     }
 
 }

@@ -9,10 +9,11 @@ public class celsius_fh {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite os ºC (Graus em Celsius)");
-        double firstnumber = scanner.nextInt();
+        double graus = scanner.nextInt();
 
-        double resultado = (firstnumber * 1.8 ) + 32;
+        double resultado = (graus * 1.8 ) + 32;
 
         System.out.println("A Temperatura em Fahrenheit é " + resultado);
+        scanner.close();
     }
 }

@@ -19,6 +19,7 @@ public class perimetro_Retang {
         double resultado = (firstnumber + secondnumber) * 2;
 
         System.out.println( resultado);
+        scanner.close();
     }
 
 }

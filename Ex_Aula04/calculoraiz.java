@@ -9,12 +9,12 @@ public class calculoraiz {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o Numero a Ser Calculado");
-        double primeironumero = scanner.nextInt();
+        double raizCalculada = scanner.nextInt();
 
-        double resultado = Math.cbrt(primeironumero);
+        double resultado = Math.cbrt(raizCalculada);
 
-        System.out.println(" Raiz cubica de " + primeironumero + " é " +  resultado);
-
+        System.out.println(" Raiz cubica de " + raizCalculada + " é " +  resultado);
+        scanner.close();
     }
 
 }
